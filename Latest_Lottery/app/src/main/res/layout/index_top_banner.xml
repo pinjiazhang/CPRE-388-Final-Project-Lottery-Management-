@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/index_title_backgroundstyle"
+
+
+    >
+
+
+    <TextView
+        android:id="@+id/top_info"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="15sp"
+        android:layout_weight="2.5"
+        android:gravity="center"
+        android:text="Bingo"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="2sp"
+
+
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/index_user"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="bottom"
+        android:layout_marginTop="3sp"
+        android:drawableTop="@drawable/user_widget"
+        android:layout_weight="1"
+
+
+        />
+
+    <TextView
+        android:id="@+id/index_userlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text=""
+        android:layout_marginRight="30sp"
+        android:visibility="gone"
+        android:textColor="#ffffff"
+        android:layout_weight="1"
+        android:layout_marginBottom="1.5sp"
+        />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="1.5sp"
+        android:layout_marginRight="30sp"
+        />
+
+
+</LinearLayout>
